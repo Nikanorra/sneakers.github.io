@@ -609,9 +609,9 @@ a { color: #ffffff;
 	background: url("../pics/asics.png") no-repeat;
 	height: 68px;
 }
-.nb {
+.new_balance {
 	width: 100%;
-	background: url("../pics/NB.png") no-repeat;
+	background: url("../pics/new_balance.png") no-repeat;
 	height: 68px;
 }
 .fils {
@@ -998,7 +998,7 @@ a { color: #ffffff;
 	justify-content: space-between;
 }
 .logo_pic {
-	background: url("../pics/SPORTSHOLD.png") no-repeat; 
+	background: url("../pics/SPORTSHOLD_logo.png") no-repeat; 
 	height: 24px;
 	width: 182px;
 	margin-bottom: 50px;
