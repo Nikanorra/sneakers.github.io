@@ -76,7 +76,7 @@ body, p, h3 {
 */
 
 body {
-	font-family: font-family: "Trueno";
+	font-family: "Trueno";
 }
 
 div {
@@ -102,7 +102,7 @@ a { color: #ffffff;
   height: 50px;
   background-color: #482424;
   font-family: Trueno;
-  font-weight: Light;
+  font-weight: 100;
   position: relative;
  }
   
@@ -112,7 +112,7 @@ a { color: #ffffff;
   height: 75px;
   background-color: #633231;
   font-family: Trueno;
-  font-weight: Light;
+  font-weight: 100;
   position: relative;
  }  
  
@@ -204,7 +204,7 @@ a { color: #ffffff;
 	color: #623232;
 	margin-bottom:32px;
 	font-family: Trueno;
-	font-weight: Light;
+	font-weight: 100;
 }
 
 .position {
@@ -228,7 +228,7 @@ a { color: #ffffff;
 	color: #8a8784;
 	margin-bottom: 40px;
 	font-family: Trueno;
-	font-weight: Light;
+	font-weight: 100;
 }
 
 .browse_btn {
@@ -245,7 +245,7 @@ a { color: #ffffff;
 .cubs{
 	height: 592px;
 	font-family: Trueno;
-	font-weight: Light;
+	font-weight: 100;
 }
 .collection {
 	background: url("../pics/001.png") no-repeat;
@@ -411,7 +411,7 @@ a { color: #ffffff;
 	color: #bdb9b5;
 	text-transform: uppercase;
 	font-family: Trueno;
-	font-weight: Light;
+	font-weight: 100;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -461,7 +461,7 @@ a { color: #ffffff;
 	color: #ff7b7a;
 	font-size: 24px;
 	font-family: Trueno;
-	font-weight: Light;
+	font-weight: 100;
 } 
 
 .sale {
@@ -469,7 +469,7 @@ a { color: #ffffff;
 	color: white;
 	padding: 8px 10px 8px 10px;
 	font-family: Trueno;
-	font-weight: Light;
+	font-weight: 100;
 }
 
 .popular01_pic {
@@ -611,7 +611,7 @@ a { color: #ffffff;
 }
 .nb {
 	width: 100%;
-	background: url("../pics/nb.png") no-repeat;
+	background: url("../pics/NB.png") no-repeat;
 	height: 68px;
 }
 .fils {
@@ -767,7 +767,7 @@ a { color: #ffffff;
   font-size: 16px;
   font-family: "Trueno";
   color: white;
-  font-weight: light;
+  font-weight: 100;
   line-height: 1.625;
   text-align: left;
   }
@@ -775,7 +775,7 @@ a { color: #ffffff;
   font-size: 13px;
   font-family: "Trueno";
   color: #ff7270;
-  font-weight: light;
+  font-weight: 100;
   line-height: 1.625;
 }
 .news_text {
@@ -920,7 +920,7 @@ a { color: #ffffff;
 	font-size: 16px;
 	color: white;
     font-family: "Trueno";
-    font-weight: Light;
+    font-weight: 100;
 	display: flex;
 	justify-content: space-around;
 }
@@ -1006,7 +1006,7 @@ a { color: #ffffff;
 .rights {
 	color: white;
 	font-size: 16px;
-    font-weight: Light;
+    font-weight: 100;
 	font-family: "Trueno";
 }
 .social_icons {
