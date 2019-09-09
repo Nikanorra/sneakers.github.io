@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "TruenoUltBlk";
+    src: url("../trueno/Trueno UltraBlack.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Trueno";
+    src: url("../trueno/TruenoBd.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Trueno";
+    src: url("../trueno/TruenoLt.otf");
+    font-weight: Light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Trueno";
+    src: url("../trueno/TruenoRg.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+

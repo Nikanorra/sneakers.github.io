@@ -1,0 +1,1024 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  }
+ /*
+ 
+ /*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*
+body, p, h3 {
+	padding: 0;
+	margin: 0 auto;
+}
+*/
+
+body {
+	font-family: font-family: "Trueno";
+}
+
+div {
+	box-sizing: border-box;
+}
+
+a { color: #ffffff;
+	text-decoration: none;
+}
+
+/*ОБЩИЙ КОНТЕЙНЕР*/ 
+.container {
+    width: 1110px;
+    margin: 0 auto;
+	padding: 0;
+}
+
+
+/*header на фоне слайда*/
+.line01 {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #482424;
+  font-family: Trueno;
+  font-weight: Light;
+  position: relative;
+ }
+  
+.line02 {
+  display: block;
+  width: 100%;
+  height: 75px;
+  background-color: #633231;
+  font-family: Trueno;
+  font-weight: Light;
+  position: relative;
+ }  
+ 
+.menu01 {
+	display: block;
+	float: left;
+	font-size: 13px;
+}
+
+.menu01 li {
+	display: block;
+	float: right;
+	padding-right:41px;
+	padding-top: 17px;
+	height: 50px;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.menu01 li:hover {
+	background: #ff7270;
+}
+.menu02 {
+	display: block;
+	float: right;
+	font-size: 13px;
+}
+.menu02 li:hover {
+	background: #ff7270;
+} 
+
+.menu02 li {
+	display: block;
+	float: left;
+	padding-right:15px;
+	padding-top: 17px;
+	height: 50px;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.menu02 i {
+	color: white;
+	padding-right: 2px;
+}
+.menu02 span {
+	opacity: 0.7;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.logo {
+	padding-top:22px;
+}
+
+.menu03 {
+	display: block;
+	float: right;
+	font-size: 16px;
+}
+
+.menu03 li {
+	display: block;
+	float: left;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top: 7px;
+}
+.menu03 li:hover {
+	border-bottom-width: thick;
+    border-bottom-style: solid;	
+    border-bottom-color: #ff7270;
+	padding-bottom: 25px;
+}
+/*SLIDE*/
+.slide {
+	background: url("../pics/sneakers.png") no-repeat;
+	background-color: #f0efee;
+	height:645px;
+}
+
+.text {
+	display: block;
+	float: right;
+	margin-left:570px;
+	margin-top:136px;
+}
+	
+
+.from {
+	font-size: 30px;
+	color: #623232;
+	margin-bottom:32px;
+	font-family: Trueno;
+	font-weight: Light;
+}
+
+.position {
+	font-family: TruenoUltBlk;
+	font-size: 70px;
+	font-weight: 900;
+	color: #623232;
+	margin-bottom:32px;
+}
+
+.propouse {
+	font-family: TruenoUltBlk;
+	font-size: 50px;
+	font-weight: 900;
+	color: #ff7270;
+	margin-bottom:42px;
+}
+
+.descripe {
+	font-size: 16px;
+	color: #8a8784;
+	margin-bottom: 40px;
+	font-family: Trueno;
+	font-weight: Light;
+}
+
+.browse_btn {
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #ff7270;
+	padding: 19px 47px;
+	font-family: Trueno;
+	font-weight: bold;
+}
+
+/*CUBS*/
+.cubs{
+	height: 592px;
+	font-family: Trueno;
+	font-weight: Light;
+}
+.collection {
+	background: url("../pics/001.png") no-repeat;
+	height: 542px;
+	margin-top: 52px;
+	margin-bottom: 100px;
+	width: 540px;
+	position: absolute;
+}
+
+.collection00 {
+	background: url("../pics/Shape3.png");
+	display: block;
+	float: left;
+	padding-left: 60px;
+	padding-top: 80px;
+	margin-left: 25px;
+	margin-top: 50px;
+	height: 48px;
+	width: 32px;
+}
+
+.collection01 {
+	display: block;
+	font-size: 30px;
+	color: white;
+	float: left;
+	padding-top: 50px;
+	margin-left: 75px;
+	text-align: center;
+}
+.collection02 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #41d9cd;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+	float: left;
+	padding-left: 80px;
+}
+
+
+.collection_btn {
+	width: 210px;
+	background-color: #42d9ce;
+	margin-top: 340px;
+	margin-bottom: 55px;
+	float: left;
+	margin-left: 70px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	outline: none;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.arrival {
+	background: url("../pics/0021.png") no-repeat;
+	background-color: #ff7270;
+	height: 255px;
+	margin-top: 52px;
+	margin-bottom: 100px;
+	width: 540px;
+	position: absolute;
+	margin-left: 570px;
+}
+
+.arrival01 {
+	margin-left: 265px;
+	margin-top: 60px;
+	color: white;
+	font-size: 30px;
+}
+.arrival02 {
+	margin-left: 250px;
+	margin-top: 15px;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.arrival_btn {
+	padding: 15px 24px 15px 24px;
+	background-color: #633231;
+	margin-left: 300px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.athletes {
+	background: url("../pics/03.png") no-repeat;
+	height: 255px;
+	margin-top: 335px;
+	width: 255px;
+	position: absolute;
+	margin-left: 570px;
+	float: right;
+}
+
+.athletes01 {
+	color: white;
+	font-size: 30px;
+	margin-top: 148px;
+	text-align: center;
+}
+
+.athletes02 {
+	color: #ff7270;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.feel {
+	background-color: #cecece;
+
+	height: 255px;
+	margin-top: 335px;
+	width: 255px;
+	margin-left: 855px;
+	float: right;
+	padding: 34px 14px 0px 14px;
+	text-align: center;
+
+}
+.fell-pic01 {
+	background: url("../pics/005.png") no-repeat;
+	height: 123px;	
+}
+
+.feel01 {
+	color: #6b7072;
+	font-size: 30px;
+}
+
+.feel02 {
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-weight: bold;
+	padding-bottom: 33px;
+}
+
+
+/*list of products cubs*/
+.popular {
+	padding-top: 100px;
+	display: flex;
+}
+
+.top_picks {
+	padding: 0px 330px 14px 330px;
+	font-size: 30px;
+	color: #bdb9b5;
+	text-transform: uppercase;
+	font-family: Trueno;
+	font-weight: Light;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.top_picks01 {
+	color: #623232;
+	font-weight: bold;
+}
+
+.popular_pics_first_line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.popular01 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+.popular02 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+.popular03 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+.popular04 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+
+.first_price {
+	display: flex;
+	justify-content: space-between;
+}
+	
+.price_red {
+	color: #ff7b7a;
+	font-size: 24px;
+	font-family: Trueno;
+	font-weight: Light;
+} 
+
+.sale {
+	background-color: #ff7b7a;
+	color: white;
+	padding: 8px 10px 8px 10px;
+	font-family: Trueno;
+	font-weight: Light;
+}
+
+.popular01_pic {
+	background: url("../pics/pre01.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.popular02_pic {
+	background: url("../pics/pre02.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.popular03_pic {
+	background: url("../pics/pre03.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.popular04_pic {
+	background: url("../pics/pre04.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+
+.description {
+	color: #8a8784;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	line-height: 1.625;
+	font-family: "Trueno";
+	margin-right: 30px;
+}
+
+.gender {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.model {
+	font-size: 16px;
+ }
+.trans {
+	opacity: 0;
+}
+.bar_code {
+	font-size: 13px;
+}
+
+/*ВТОРАЯ ЛИНИЯ КРОС*/
+.popular_pics_second_line {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+}
+
+.popular05 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+.popular06 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+
+.popular07 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+.popular08 {
+	width: 255px;
+	height: 350px;
+	border: 1px solid #e0dfde;
+	padding: 30px 0 30px 30px;
+}
+
+.popular05_pic {
+	background: url("../pics/pre05.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.popular06_pic {
+	background: url("../pics/pre06.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.popular07_pic {
+	background: url("../pics/pre07.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.popular08_pic {
+	background: url("../pics/pre08.png") no-repeat;
+	height: 106px;
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+/*BRANDS*/
+.brands {
+	height: 170px;
+}
+.brands_pics {
+	margin-top: 100px;
+	display: flex;
+}
+
+.adidas {
+	background: url("../pics/adidas.png") no-repeat;
+	height: 68px;
+	width: 100%;
+}
+.nike {
+	background: url("../pics/nike.png") no-repeat;
+	height: 68px;
+	width: 100%;
+}
+.puma {
+	width: 100%;
+	background: url("../pics/puma.png") no-repeat;
+	height: 68px;
+}
+.asics {
+	width: 100%;
+	background: url("../pics/asics.png") no-repeat;
+	height: 68px;
+}
+.nb {
+	width: 100%;
+	background: url("../pics/nb.png") no-repeat;
+	height: 68px;
+}
+.fils {
+	width: 100%;
+	background: url("../pics/fils.png") no-repeat;
+	height: 68px;
+}
+
+/*RATE*/
+.rate {
+	display: flex;
+	justify-content: space-around;
+	height: 568px;
+	width: 100%;
+	background: url("../pics/rate.png") no-repeat;
+}
+
+.rate-overlay {
+	width: 100%;
+	opacity: 0.9;
+	background-color: #482423;
+}
+
+.users {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+}
+.user01:hover {
+	opacity:1;
+}
+.user01 {
+	width: 160px;
+	height: 130px;
+	opacity: 0.5;
+}
+.user02 {
+	width: 160px;
+	height: 130px;
+}
+.user03 {
+	width: 160px;
+	height: 130px;
+	opacity: 0.5;
+}
+.user03:hover {
+	opacity:1;
+}
+.names {
+	font-size: 16px;
+	width: 160px;
+    font-family: "Trueno";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.625;
+	text-align: center;
+}
+
+.userзpic01 {
+	background: url("../pics/user.png") no-repeat;
+	height: 65px;
+	margin: 0px 47px 0px 47px;
+}
+.stars01 {
+	background: url("../pics/stars_sprite.png") no-repeat;
+	height: 20px;
+	margin-left: 22px;
+}
+
+.userзpic02 {
+	background: url("../pics/user.png") no-repeat;
+	height: 65px;
+	margin: 0px 47px 0px 47px;
+}
+.stars02 {
+	background: url("../pics/stars_sprite.png") no-repeat;
+	height: 20px;
+	background-position: 0 -23px;
+	margin-left: 22px;
+}
+
+.userзpic03 {
+	background: url("../pics/user.png") no-repeat;
+	height: 65px;
+	margin: 0px 47px 0px 47px;
+}
+.stars03 {
+	background: url("../pics/stars_sprite.png") no-repeat;
+	height: 20px;
+	background-position: 0 -43px;
+	margin-left: 22px;
+}
+
+.rectangle {
+	margin-top: 50px;
+
+}
+.rectangle_text {
+  background: #5d3e3d;
+  color: white;
+  font-size: 16px;
+  font-family: "Trueno";
+  line-height: 1.625;
+  text-align: center;
+  padding: 53px;
+}
+
+/*LATEST NEWS*/
+.news {
+	height: 627px;
+}
+.newspics {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_title {
+  font-size: 30px;
+  font-family: "Trueno";
+  color: #623232;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding: 105px 0px 51px 0px;
+  display: block;
+  text-align: center;
+}
+
+.newspic01 {
+	background: url("../pics/ln_01.png") no-repeat;
+	height: 350px;
+	width: 350px;
+}
+.newspic02 {
+	background: url("../pics/ln_02.png") no-repeat;
+	height: 350px;
+	width: 350px;
+}
+.newspic03 {
+	background: url("../pics/ln_03.png") no-repeat;
+	height: 350px;
+	width: 350px;
+}
+.news_date {
+  font-size: 16px;
+  font-family: "Trueno";
+  color: white;
+  font-weight: bold;
+  line-height: 1.625;
+  text-align: left;
+}
+.news_descript{  
+  font-size: 16px;
+  font-family: "Trueno";
+  color: white;
+  font-weight: light;
+  line-height: 1.625;
+  text-align: left;
+  }
+.news_red {
+  font-size: 13px;
+  font-family: "Trueno";
+  color: #ff7270;
+  font-weight: light;
+  line-height: 1.625;
+}
+.news_text {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 230px 32px 65px 15px;
+}
+
+/*LOOKING*/
+.looking {
+	background-color: #ff7270;
+	color: white;
+	font-family: "Trueno";
+}
+.looking_wrapper {
+	display: flex;
+	padding-top: 76px;
+	padding-bottom: 76px;
+}
+
+.looking_envelope {
+	background: url("../pics/looking.png") no-repeat;
+	height: 46px;
+	width: 60px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.looking_text {
+	display: flex;
+	flex-direction: column;
+}
+
+.looking_big {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+}
+.looking_small {
+  font-size: 16px;
+  color: white;
+  line-height: 1.625;
+  text-align: left;
+
+}
+
+.looking_btn {
+  margin-left: 355px;
+  background-color: #633231;
+  padding: 17px 30px 17px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.625;
+  text-transform: uppercase;
+}
+
+/*LAST SECTION*/
+.last_section {
+	display: flex;
+	justify-content: space-around;
+	background-color: #633231;
+	padding-top: 50px;
+}
+.icons_01  {
+	width: 160px;
+}
+.icons_02  {
+	width: 160px;
+}
+.icons_03  {
+	width: 160px;
+}
+.icons_04  {
+	width: 160px;
+}
+.icons_05  {
+	width: 160px;
+}
+.icons_06 {
+	width: 160px;
+}
+.icons {
+	display: flex;
+	justify-content: space-around;
+}
+.icons_free_ship {
+	height: 40px;
+	margin-left: 59px;
+	margin-right: 59px;
+	background: url("../pics/icons01.png") no-repeat;
+}
+.icons_money {
+	height: 40px;
+	margin-left: 59px;
+	margin-right: 59px;
+	background: url("../pics/icons02.png") no-repeat;
+}
+.icons_support {
+	height: 40px;
+	margin-left: 59px;
+	margin-right: 59px;
+	background: url("../pics/icons03.png") no-repeat;
+}
+.icons_prices {
+	height: 40px;
+	margin-left: 59px;
+	margin-right: 59px;	
+	background: url("../pics/icons04.png") no-repeat;
+}
+.icons_items {
+	height: 40px;
+	margin-left: 59px;
+	margin-right: 59px;	
+	background: url("../pics/icons05.png") no-repeat;
+}
+.icons_delivery {
+	height: 40px;
+	margin-left: 59px;
+	margin-right: 59px;	
+	background: url("../pics/icons06.png") no-repeat;
+}
+.icons_text {
+  padding-top: 15px;
+  font-size: 16px;
+  font-family: "Trueno";
+  color: white;
+  line-height: 1.625;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.icons_line {
+	opacity: 0.1;
+}
+
+/*MAP OF SITE*/
+.map_site {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 16px;
+	color: white;
+    font-family: "Trueno";
+    font-weight: Light;
+	display: flex;
+	justify-content: space-around;
+}
+.map_site_icons > div {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	height: 55px;
+	width: 55px;
+	background-color: #ff7270;
+}
+
+/*phone*/
+.map_site_color_phone {
+	margin: 17px;
+}
+
+/*e-mail*/
+.map_site_color_letter {
+	margin: 20px 17px;
+
+}
+/*map*/
+.map_site_color_map {
+	margin: 17px;
+}
+
+.map_site_tex {
+	margin-top: 20px;
+}
+.map_site_tex_contacts {
+	
+}
+.map_site_tex_red {
+  font-size: 16px;
+  color: #ff7270;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.map_site_tex_red_contacts {
+  font-size: 16px;
+  color: #ff7270;
+  font-weight: bold;
+  text-transform: uppercase;	
+  margin: 2px 0px 10px 0px;
+}
+
+.map_site_tex_red_contacts:second-child {
+	margin-top: 50px;
+}
+.map_site_contacts02 {
+	margin: 35px 0 33px 0;
+}
+.map_site_icons {
+	flex: 0.5;
+}
+.map_site_contacts {
+	flex: 3;
+}
+.map_site_navig {
+	flex: 2;
+}
+.map_site_categories {
+	flex: 2;
+}
+.map_site_sales {
+	flex: 2;
+}
+.map_site_support {
+	flex: 2;
+}
+.low {
+	margin-top: 42px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo_pic {
+	background: url("../pics/SPORTSHOLD.png") no-repeat; 
+	height: 24px;
+	width: 182px;
+	margin-bottom: 50px;
+}
+.rights {
+	color: white;
+	font-size: 16px;
+    font-weight: Light;
+	font-family: "Trueno";
+}
+.social_icons {
+	display: flex;
+	color: white;
+}
+.twitter {
+	margin-right: 25px;;
+}
+.facebook {
+	margin-right: 25px;
+}
+.youtube {
+	margin-left: 25px;
+}
