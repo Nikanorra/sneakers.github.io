@@ -587,6 +587,7 @@ a { color: #ffffff;
 .brands_pics {
 	margin-top: 100px;
 	display: flex;
+	justify-content: space-between;
 }
 
 .adidas {
@@ -611,7 +612,7 @@ a { color: #ffffff;
 }
 .new_balance {
 	width: 100%;
-	background: url("../pics/new_balance.png") no-repeat;
+	background: url("../pics/newbalance_logo.png") no-repeat;
 	height: 68px;
 }
 .fils {
