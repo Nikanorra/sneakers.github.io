@@ -184,7 +184,7 @@ a { color: #ffffff;
 }
 /*SLIDE*/
 .slide {
-	background: url("../pics/sneakers.png") no-repeat;
+	background: url("../pics/sneakers.png")  no-repeat;
 	background-color: #f0efee;
 	height:645px;
 }
@@ -402,20 +402,24 @@ a { color: #ffffff;
 }
 
 .top_picks {
-	padding: 0px 330px 14px 330px;
+	padding: 0px 0 14px 0;
 	font-size: 30px;
 	color: #bdb9b5;
 	text-transform: uppercase;
 	font-family: Trueno;
 	font-weight: 100;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: center;
+
 }
 
 .top_picks01 {
 	color: #623232;
 	font-weight: bold;
+}
+.top_picks02 {
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .popular_pics_first_line {
@@ -583,36 +587,36 @@ a { color: #ffffff;
 .brands_pics {
 	margin-top: 100px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .adidas {
 	background: url("../pics/adidas.png") no-repeat;
 	height: 68px;
-	width: 100%;
+	width: 120px;
 }
 .nike {
 	background: url("../pics/nike.png") no-repeat;
 	height: 68px;
-	width: 100%;
+	width: 120px;
 }
 .puma {
-	width: 100%;
+	width: 120px;
 	background: url("../pics/puma.png") no-repeat;
 	height: 68px;
 }
 .asics {
-	width: 100%;
+	width: 120px;
 	background: url("../pics/asics.png") no-repeat;
 	height: 68px;
 }
 .new_balance {
-	width: 100%;
+	width: 120px;
 	background: url("../pics/newbalance_logo.png") no-repeat;
 	height: 68px;
 }
 .fils {
-	width: 100%;
+	width: 120px;
 	background: url("../pics/fils.png") no-repeat;
 	height: 68px;
 }
