@@ -68,15 +68,12 @@ table {
 }
 
 
-/*
-body, p, h3 {
+body {
+	max-width: 1680px;
 	padding: 0;
 	margin: 0 auto;
-}
-*/
-
-body {
 	font-family: "Trueno";
+	
 }
 
 div {
@@ -192,9 +189,7 @@ a { color: #ffffff;
 }
 
 .text {
-	display: block;
 	float: right;
-	margin-left:570px;
 	margin-top:136px;
 }
 	
@@ -708,9 +703,6 @@ a { color: #ffffff;
 
 .rectangle {
 	margin-top: 50px;
-
-}
-.rectangle_text {
   background: #5d3e3d;
   color: white;
   font-size: 16px;
@@ -928,7 +920,7 @@ a { color: #ffffff;
 .map_site_icons > div {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	height: 55px;
 	width: 55px;
 	background-color: #ff7270;
@@ -952,9 +944,7 @@ a { color: #ffffff;
 .map_site_tex {
 	margin-top: 20px;
 }
-.map_site_tex_contacts {
-	
-}
+
 .map_site_tex_red {
   font-size: 16px;
   color: #ff7270;
@@ -969,11 +959,8 @@ a { color: #ffffff;
   margin: 2px 0px 10px 0px;
 }
 
-.map_site_tex_red_contacts:second-child {
-	margin-top: 50px;
-}
 .map_site_contacts02 {
-	margin: 35px 0 33px 0;
+	margin: 34px 0 34px 0;
 }
 .map_site_icons {
 	flex: 0.5;
