@@ -194,7 +194,6 @@ a { color: #ffffff;
 	margin-top:136px;
 }
 	
-
 .from {
 	font-size: 30px;
 	color: #623232;
@@ -236,7 +235,9 @@ a { color: #ffffff;
 	font-family: Trueno;
 	font-weight: bold;
 }
-
+.browse_btn:hover {
+	box-shadow: 0 0 11px -4px black;
+}
 /*CUBS*/
 .cubs{
 	height: 592px;
@@ -300,6 +301,9 @@ a { color: #ffffff;
 	text-align: center;
 	font-weight: bold;
 }
+.collection_btn:hover {
+	box-shadow: 0 0 20px 4px black;
+}
 
 .arrival {
 	background: url("../pics/0021.png") no-repeat;
@@ -336,7 +340,9 @@ a { color: #ffffff;
 	font-weight: bold;
 	text-transform: uppercase;
 }
-
+.arrival_btn:hover {
+	box-shadow: 0 0 5px black;
+}
 .athletes {
 	background: url("../pics/03.png") no-repeat;
 	height: 255px;
@@ -433,11 +439,19 @@ a { color: #ffffff;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
 }
+.popular01:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
 .popular02 {
 	width: 255px;
 	height: 350px;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
+}
+.popular02:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 .popular03 {
 	width: 255px;
@@ -445,13 +459,20 @@ a { color: #ffffff;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
 }
+.popular03:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
 .popular04 {
 	width: 255px;
 	height: 350px;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
 }
-
+.popular04:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
 .first_price {
 	display: flex;
 	justify-content: space-between;
@@ -478,6 +499,7 @@ a { color: #ffffff;
 	margin-top: 23px;
 	margin-bottom: 10px;
 }
+
 .popular02_pic {
 	background: url("../pics/pre02.png") no-repeat;
 	height: 106px;
@@ -536,18 +558,29 @@ a { color: #ffffff;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
 }
+.popular05:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
 .popular06 {
 	width: 255px;
 	height: 350px;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
 }
-
+.popular06:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
 .popular07 {
 	width: 255px;
 	height: 350px;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
+}
+.popular07:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 .popular08 {
 	width: 255px;
@@ -555,7 +588,10 @@ a { color: #ffffff;
 	border: 1px solid #e0dfde;
 	padding: 30px 0 30px 30px;
 }
-
+.popular08:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
 .popular05_pic {
 	background: url("../pics/pre05.png") no-repeat;
 	height: 106px;
@@ -595,30 +631,48 @@ a { color: #ffffff;
 	height: 68px;
 	width: 120px;
 }
+.adidas:hover {
+	zoom: 1.1;
+}
 .nike {
 	background: url("../pics/nike.png") no-repeat;
 	height: 68px;
 	width: 120px;
+}
+.nike:hover {
+	zoom: 1.1;
 }
 .puma {
 	width: 120px;
 	background: url("../pics/puma.png") no-repeat;
 	height: 68px;
 }
+.puma:hover {
+	zoom: 1.1;
+}
 .asics {
 	width: 120px;
 	background: url("../pics/asics.png") no-repeat;
 	height: 68px;
+}
+.asics:hover {
+	zoom: 1.1;
 }
 .new_balance {
 	width: 120px;
 	background: url("../pics/newbalance_logo.png") no-repeat;
 	height: 68px;
 }
+.new_balance:hover {
+	zoom: 1.1;
+}
 .fils {
 	width: 120px;
 	background: url("../pics/fils.png") no-repeat;
 	height: 68px;
+}
+.fils:hover {
+	zoom: 1.1;
 }
 
 /*RATE*/
@@ -782,6 +836,10 @@ a { color: #ffffff;
 	flex-direction: column;
 	padding: 230px 32px 65px 15px;
 }
+.news_descript:hover {
+	font-weight: 900;
+	transition: all 0.1s ease;
+}
 
 /*LOOKING*/
 .looking {
@@ -832,7 +890,9 @@ a { color: #ffffff;
   line-height: 1.625;
   text-transform: uppercase;
 }
-
+.looking_btn:hover {
+	box-shadow: 0 0 5px black;
+}
 /*LAST SECTION*/
 .last_section {
 	display: flex;
@@ -963,7 +1023,9 @@ a { color: #ffffff;
   text-transform: uppercase;	
   margin: 2px 0px 10px 0px;
 }
-
+.map_site_tex a:hover {
+	font-weight: 501;
+}
 .map_site_contacts02 {
 	margin: 34px 0 34px 0;
 }
@@ -1006,6 +1068,7 @@ a { color: #ffffff;
 	display: flex;
 	color: white;
 }
+
 .twitter {
 	margin-right: 25px;;
 }

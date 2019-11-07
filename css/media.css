@@ -10,37 +10,66 @@
 
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
+	.container {
+		min-width: 961px;
+	}
+	
 	.slide {
-	height:550px;
+	height: 550px;
 	background-size: 60%;
 	}
+	
+	.text {
+		margin-right: 30px;
+	}
+	
+	.position {
+		font-size: 60px;
 }
+.propouse {
+    font-size: 40px;
+}
+}
+
 /* 769 - 960 px */
 @media screen and (max-width: 960px) {
+	.container {
+		min-width: 769px;
+	}	
 
+	.map_site {
+		font-size: 12px;
+}
+	
+	.rights {
+		font-size: 5px;
+}
+	.youtube {
+		margin-right: 15px;
+}
 }
 
 /* 481 - 768 px */
 @media screen and (max-width: 768px) {
     .text {
-    margin-top: 20px;
+		margin-top: 20px;
 }
-.from {
-    font-size: 15px;
-    margin-bottom: 32px;
+	.from {
+		font-size: 15px;
+		margin-bottom: 32px;
 }
-.position {
-    font-size: 25px;
+	.position {
+		font-size: 25px;
 }
-.descripe {
-    font-size: 10px;
+	.descripe {
+		font-size: 10px;
 }
-.propouse {
-    font-size: 14px;
+	.propouse {
+		font-size: 14px;
 }
-.browse_btn {
-    font-size: 10px;
-    padding: 15px 30px;
+	.browse_btn {
+		font-size: 10px;
+		padding: 15px 30px;
 }
 }
 
