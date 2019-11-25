@@ -12,6 +12,7 @@
 @media screen and (max-width: 1368px) {
 	.container {
 		min-width: 961px;
+		max-width: 1368px;
 	}
 	
 	.slide {
@@ -35,14 +36,20 @@
 @media screen and (max-width: 960px) {
 	.container {
 		min-width: 769px;
-	}	
+		max-width: 960px;
+}	
 
 	.map_site {
 		font-size: 12px;
 }
-	
+		
+	.top_picks02 {
+		margin-left:20px;
+		margin-right:20px;
+}
+		
 	.rights {
-		font-size: 5px;
+		font-size: 1px;
 }
 	.youtube {
 		margin-right: 15px;
@@ -51,6 +58,10 @@
 
 /* 481 - 768 px */
 @media screen and (max-width: 768px) {
+	.container {
+		max-width: 481px;
+		min-width: 768px;
+	}
     .text {
 		margin-top: 20px;
 }
@@ -75,7 +86,21 @@
 
 /* 320 - 480 px */
 @media screen and (max-width: 480px) {
-        .text {
+	.container {
+		max-width: 480px;
+		min-width: 320px;
+	}	
+    .text {
     margin-top: 20px;
+}
+	.map_site {
+		font-size: 5px;
+}
+	
+	.rights {
+		font-size: 5px;
+}
+	.youtube {
+		margin-right: 8px;
 }
 }
