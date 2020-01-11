@@ -78,7 +78,8 @@ html, body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: 'Open Sans'; /*sans-serif;*/
-	color: grey;
+	color: white!important;
+
 }
 
 div {
@@ -87,6 +88,7 @@ div {
 
 a { 
 	text-decoration: none;
+	color: grey;
 }
 
 /*ОБЩИЙ КОНТЕЙНЕР*/ 
@@ -101,13 +103,14 @@ a {
 
 /*MENU*/
 .navbar-expand-lg  {
-	color: white;
+	color: white!important;
 }
-.shadow {
+.navbar {
 	box-sizing: content;
 	font-size: 10px;
 	text-transform: uppercase;
-	box-shadow: 0 10px 12px -10px rgba(0,0,0,1);
+	box-shadow: 0 10px 12px -10px rgba(0,0,0,1)!important;
+	padding: 0!important;
 }
 
 .item {
@@ -123,12 +126,14 @@ a {
 }
 .download {
 	background-color: #7fa822;
+	color: white!important;
 }
-.menu_green {
-	color: white;
+.menu_green a { 
+	color: white!important;
 }
 .by {
 	background-color: #97c352;
+	color: white!important;
 }
 /*end of GREEN MENU*/
 /*TESTER*/
