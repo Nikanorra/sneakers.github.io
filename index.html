@@ -90,34 +90,33 @@
 </header>
 
 
-
 <!--start TESTER-->
 <section class="slide">
 <div class="container">
-<div class="tester">
-<div class="row">
-<div class="col-lg-6 d-flex">
-<div class="tester01 d-flex">
-<img src="pics/forex.png" alt="forex tester" class="tester_pic">
-<div class="tester_text flex-column">
-<h1>forex tester</h1>
-<p class="soft">Software for traders by traders</p>
-</div>
-</div>
+<div class="tester"><!--фон-->
+<div class="d-flex">
+	<div class="tester01 p-2"><!--лейб-->
+		<img src="pics/forex.png" alt="forex tester" class="tester_pic">
+	</div>
+	<div class="p-2 tester_text d-flex-column"> <!--заголовок и подпись и карточки-->
+		<h1>forex tester</h1><!--заголовок-->
+		<p class="soft">Software for traders by traders</p><!--подпись-->
+	</div>
+	<div class="payment00 ml-auto p-2 d-flex-col"><!--карточки-->
+		<div class="payment01 d-flex">
+			<img src="pics/visa.png" class="rounded mx-auto d-block">
+			<img src="pics/mastercard.png" class="rounded mx-auto d-block">
+		</div>
+	<div class="payment02 d-flex">
+			<img src="pics/paypal.png" class="rounded mx-auto d-block">
+			<img src="pics/wiretransfer.png" class="rounded mx-100\9 d-block">
+	</div>
+	</div>	
+
 </div>
 
-<div class="col-lg-5">
-<div class="payment01">
-<img src="pics/visa.png">
-<img src="pics/mastercard.png">
-</div>
-<div class="payment02">
-<img src="pics/paypal.png">
-<img src="pics/wiretransfer.png">
-</div>
-</div>
-<div class="col-lg-5">
-<p class="buy">buy forex tester 4</p>
+<div class="tester_text01">
+<p class="buy d-flex">buy forex tester 4</p>
 </div>
 
 </div>
@@ -244,21 +243,30 @@
 			</div>
 	
 	<!--<div class="subtract_count p-2">--> <!--для + 1 - 299 и 159-->
-			<div class="subtract_count01 p-2 d-flex-col"> <!--для + 1 - -->
+		<div class="subtract_count01 p-2 d-flex-col"> <!--для + 1 - -->
 				<h3>Forex Tester 4</h3>
-			<div class="d-flex">
-				<form class=""><button class="minus"><p>-</p></button></form>
-				<p>1</p>
-				<form class=""><button class="add"><p>+</p></button></form>
-			</div>
-			</div>
+				<div class="d-flex">
+					<form class="p-2">
+						<input class ="minus" type="submit" name="submit" value="-">
+					</form>
+					
+					<p class="p-2">1</p>
+					
+					<form class="p-2">
+						<input class ="plus" type="submit" name="submit" value="+">
+					</form>
+				
+				</div>
+		</div>
+			
+			
 			
 			<div class="ml-auto p-2 d-flex"> <!--299 и 159-->
 				<p class="price_full">$299.000</p>
 				<p class="price_actual">$159.00</p>
 			</div>
 </div>	
-<div class="d-flex"> 
+<div class="discount d-flex"> 
 	<h3>Discount</h3>
 	<p class="subtract_sale ml-auto">-$140</p>
 </div>
@@ -281,7 +289,7 @@
 				<p class="price_actual">$199.00</p>
 			</div>
 </div>		
-	<div class="d-flex"> 
+	<div class="discount d-flex"> 
 		<h3>Discount</h3>
 		<p class="subtract_sale ml-auto">-$400.88</p>
 	</div>
@@ -324,18 +332,21 @@
 
 <!--I have a coupon code-->
 <section class="last">
-<div class="container">	
+<div class="container">
+<div class="row">	
 <div class="col-lg-7">	
+
 		<div class="box d-flex">
 		<form class="p-2"> <!--I have a coupon code-->
-				<input class="box__in" type="checkbox" id="coupon_box" name="">
-					<label for="coupon_box" class="box__lab01">I have a coupon code</label>
-			</form>
-			
-			<form action="" method="post" class="ml-auto p-2"><!--submit-->
-				<input class ="subb" type="submit" name="submit" value="SUBMIT ORDER">
-			</form>
+			<input class="box__in" type="checkbox" id="coupon_box" name="">
+				<label for="coupon_box" class="box__lab01">I have a coupon code</label>
+		</form>	
+		<form class="p-2"> <!--SUBMIT ORDER-->
+			<input class ="subb" type="submit" name="submit" value="SUBMIT ORDER">
+		</form>
 		</div>
+	
+</div>
 </div>
 </div>
 </div>

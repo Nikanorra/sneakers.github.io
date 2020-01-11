@@ -150,11 +150,14 @@ a {
 }
 .tester_text {
 	color: #030345;
-	margin-left: 29px;
+	margin-top: 32px;
+
+}
+.tester_text01 {
+	padding-bottom: 0.5%;
 }
 h1 {
 	font-family: RobotoRegular;
-	margin: 48px 0 18px 0;
 	font-size: 35px;
 	text-transform: uppercase;
 }
@@ -169,8 +172,9 @@ h1 {
 	text-transform: uppercase;
 	color: #030345;
 }
-.payment01 {
-	margin-top: 30px;
+.payment00 {
+	margin-top: 32px;
+
 }
 
 /*FORM*/
@@ -332,20 +336,21 @@ option {
 	content: "\2714";
 	color: rgba(83, 88, 105, 0.9);
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 .box__in:checked + .box__lab:after {
     opacity: 1;
 }
 /*end of CHECKBOX */
+
 /*I have a COUPON start*/
 .last {
 	margin-top: 37px;
 }
 .box__lab01 {
     padding-left: 25px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 150%;
 	color: #000000;
 
@@ -378,7 +383,7 @@ option {
 	content: "\2714";
 	color: rgba(83, 88, 105, 0.9);
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 .box__in:checked + .box__lab01:after {
@@ -411,10 +416,7 @@ option {
 .subtract_text_last {
 	margin-bottom: 65%;
 }
-.subtract01 {
-	margin-top: 25px;
-	margin-top: 16px;
-}
+
 .subtract_prod01 {
 	background: url("../pics/product01.png") no-repeat;
 	width: 50px;
@@ -431,7 +433,12 @@ h3 {
 	line-height: 150%;
 	color: #000;
 }
-
+.discount {
+	padding-top: 8px;
+}
+.subtract02 {
+	margin-top: 16px;
+}
 .subtract_prod02 {
 	background: url("../pics/product02.png") no-repeat;
 	width: 50px;
@@ -442,45 +449,27 @@ h3 {
 .subtract_count01 p {
 	font-weight: bold;
 	font-size: 14px;
-	line-height: 150%;
 	color: #0C2564;
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 }
-.add {
-	font-style: normal;
+.plus {
 	font-weight: bold;
 	font-size: 14px;
-	line-height: 150%;
-	color: #000000;
-	opacity: 0.5;
 	width: 18px;
 	height: 18px;
-	padding-bottom: 2px;
+	color: #000000;
+	opacity: 0.5;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	text-align: center;
-	margin-left: 12px;
 }
 .minus {
-	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
-	line-height: 150%;
-	color: #000000;
-	opacity: 0.5;
 	width: 18px;
 	height: 18px;
-	padding-bottom: 2px;
+	color: #000000;
+	opacity: 0.5;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	text-align: center;
-	margin-right: 12px;
-}
-.minus p {
-	vertical-align: center;
-}
-.subtract_count {
-	margin-top: 10px;
-	margin-bottom: 14px;
 }
 
 .price_full {	
@@ -508,12 +497,15 @@ h3 {
 	padding-top: 10px;
 }
 .payment_term {
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 24px;
 }
-
+.subtract_text {
+	margin: 5px 0;
+}
 /*end of TOTAL*/
 .subtract_total {
-	margin-top: 30px;
+	margin-top: 24px;
 }
 .subtract_total p {
 	font-weight: bold;
@@ -540,7 +532,4 @@ h3 {
 	line-height: 180%;
 	color: #FFFFFF;
 	border: none;
-}
-.box form {
-
 }
