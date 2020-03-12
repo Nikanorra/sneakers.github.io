@@ -70,6 +70,7 @@ table {
 
 html, body {
 	max-width: 1680px;
+	min-width: 1680px;
 	width: 100%;
 	padding: 0;
 	margin: 0 auto;
